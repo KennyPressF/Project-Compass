@@ -89,19 +89,19 @@ public class Enemy : MonoBehaviour
         switch (moveDir)
         {
             case Vector2 v when v.Equals(Vector2.up):
-                animationHash = Animator.StringToHash(soBase.animMoveUp);
+                animationHash = Animator.StringToHash("MoveUp");
                 break;
 
             case Vector2 v when v.Equals(Vector2.right):
-                animationHash = Animator.StringToHash(soBase.animMoveRight);
+                animationHash = Animator.StringToHash("MoveRight");
                 break;
 
             case Vector2 v when v.Equals(Vector2.down):
-                animationHash = Animator.StringToHash(soBase.animMoveDown);
+                animationHash = Animator.StringToHash("MoveDown");
                 break;
 
             case Vector2 v when v.Equals(Vector2.left):
-                animationHash = Animator.StringToHash(soBase.animMoveLeft);
+                animationHash = Animator.StringToHash("MoveLeft");
                 break;
 
             default:

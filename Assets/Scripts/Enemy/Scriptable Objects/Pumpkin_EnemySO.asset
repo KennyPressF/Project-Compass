@@ -12,10 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d674ec1b14ed30d44af7f1176f5a8a89, type: 3}
   m_Name: Pumpkin_EnemySO
   m_EditorClassIdentifier: 
+  enemyName: Pumpkin Head
   health: 3
   moveSpeed: 1
   scoreValue: 10
-  animMoveUp: Pumpkin_MoveUp
-  animMoveRight: Pumpkin_MoveRight
-  animMoveDown: Pumpkin_MoveDown
-  animMoveLeft: Pumpkin_MoveLeft

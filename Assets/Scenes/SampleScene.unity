@@ -795,7 +795,7 @@ MonoBehaviour:
   minTimeBetweenSpawns: 2
   maxTimeBetweenSpawns: 6
   spawnTimers: []
-  enemyPrefab: {fileID: 5738883931835766062, guid: 76b72ca8fc1decd47a3c41618512b721, type: 3}
+  enemyPrefab: {fileID: 9058519281565202424, guid: c5eec46489c5b6b45b9e4a9417967413, type: 3}
   poolSize: 10
 --- !u!1 &149266410
 GameObject:
